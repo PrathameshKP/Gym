@@ -1,78 +1,94 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     font-family: "Rubik", sans-serif;
+    ;
 }
-.navbar{
-    font-size: 1.2rem;
- display: flex;
- justify-content: center;
- align-items: center;
- background-color: aliceblue;
 
-}
-.navbar img{
-    max-width: 100px;
-    max-height: 100px;
-}
-.heading{
+.navbar {
+    font-size: 1.2rem;
     display: flex;
-    flex-direction: column;
- margin: 0rem 0rem;
-    
+    justify-content: center;
+    align-items: center;
     background-color: aliceblue;
 
 }
-.heading h1,h3{
+
+.navbar img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem;
+
+    background-color: aliceblue;
+
+}
+
+.heading h1,
+h3 {
     text-align: center;
     color: #8c00fe;
-} 
-.heading img{
-   overflow: hidden;
+}
+
+.heading img {
+    overflow: hidden;
     aspect-ratio: 3/2;
     object-fit: contain;
     border-radius: 25px;
-  max-height: 650px;
-   
-  
+    max-height: 650px;
+
+
 }
-.formBody{
+
+.formBody {
     border: 1px solid #bbeba1;
     box-shadow: 2px 2px 20px 4px rgb(217, 217, 217);
     border-radius: 9px;
     display: flex;
     flex-direction: row;
-margin: 2rem 4rem;
-padding: 3rem;
-background-color: aliceblue;
+    margin: 2rem 4rem;
+    padding: 3rem;
+    background-color: rgb(62, 85, 104);
 }
-.formBody img{
+
+.formBody img {
     text-align: center;
     margin: auto;
 }
-.formBody form{
-  
+
+.formBody form {
+
     display: flex;
     flex-direction: column;
 }
-.formBody form input,#validationCustomUsername{
+
+.formBody form input,
+#validationCustomUsername {
     border: 2px solid #bbeba1;
 }
-.formBody form input,#validationCustomUsername{
+
+.formBody form input,
+#validationCustomUsername {
     min-width: 50vw;
 }
-footer{
+
+footer {
     text-align: center;
 }
-footer .imagesInFooter{
+
+footer .imagesInFooter {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
-  
+
 }
-.imagesInFooter img{
+
+.imagesInFooter img {
     overflow: hidden;
 
     max-width: 50px;
@@ -80,10 +96,11 @@ footer .imagesInFooter{
     margin: 2px 2px;
     padding: 2px 2px;
 }
-@media screen and (max-width: 500px){
-    .formBody{
+
+@media screen and (max-width: 500px) {
+    .formBody {
         flex-direction: column;
         margin: 2rem 1.5rem;
-padding: 1rem;
+        padding: 1rem;
     }
 }
